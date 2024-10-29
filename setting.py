@@ -1,14 +1,15 @@
-RANDOM_DELAY_ACCOUNT = (0, 0)
-RANDOM_ACCOUNT = "ĐANG UPDATE"
-RANDOM_DELAY_REQUEST = (0, 0)
-MAX_THREADS_TOOL = 20
-MAX_THREADS_ACCOUNT = 20
 RUN_ALL_TOOL = "ON"
-SLEEP_TOOL = ()
+RANDOM_ACCOUNT = "ON"
+RANDOM_BEHAVIOR = "ON"
+RANDOM_DELAY_ACCOUNT = (60, 120)
+RANDOM_DELAY_REQUEST = (1, 5)
+MAX_THREADS_TOOL = 20
+MAX_THREADS_ACCOUNT = 10
+SLEEP_TOOL = (0,1,2,3,4,5,6,23)
 #Tùy chỉnh cấu hình từng tool
 SETTING = {}
 SETTING['bunny'] = {
-  "DELAY": 600,
+  "RANDOM_DELAY": (600, 1200),
   "AUTO_ĐIỂM_DANH": "ON",
   "AUTO_CLICK": "ON",
   "AUTO_THAM_GIA_CLAN": "ON",
@@ -22,7 +23,7 @@ SETTING['bunny'] = {
     }
 }
 SETTING['cex'] = {
-  "DELAY": 600,
+  "RANDOM_DELAY": (600, 1200),
   "AUTO_CLICK": "ON",
   "AUTO_CLAIM_CRYPTO": "ON",
   "AUTO_CLAIM_PHẦN_THƯỞNG_REF": "ON",
@@ -32,7 +33,7 @@ SETTING['cex'] = {
   "RANDOM_LƯỢT_CLICK": (300,500)
 }
 SETTING['dotcoin'] = {
-  "DELAY": 600,
+  "RANDOM_DELAY": (600, 1200),
   "AUTO_CLICK": "ON",
   "AUTO_NÂNG_CẤP_BOOSTER": "ON",
   "AUTO_NÂNG_CẤP_DTC": "ON",
@@ -45,7 +46,7 @@ SETTING['dotcoin'] = {
     }
 }
 SETTING['timefarm'] = {
-  "DELAY": 600,
+  "RANDOM_DELAY": (600, 1200),
   "AUTO_START_FARM": "ON",
   "AUTO_CLAIM_FARM": "ON",
   "AUTO_TRẢ_LỜI_CÂU_HỎI": "ON",
@@ -57,7 +58,7 @@ SETTING['timefarm'] = {
     }
 }
 SETTING['wormfare'] = {
-  "DELAY": 600,
+  "RANDOM_DELAY": (600, 1200),
   "RANDOM_LƯỢT_CLICK": (50, 100),
   "AUTO_CLICK": "ON",
   "AUTO_ĐIỂM_DANH": "ON",
@@ -71,7 +72,7 @@ SETTING['wormfare'] = {
     }
 }
 SETTING['yescoin'] = {
-  "DELAY": 900,
+  "RANDOM_DELAY": (600, 1200),
   "RANDOM_LƯỢT_CLICK": (100, 500),
   "AUTO_CLICK": "ON",
   "AUTO_CLAIM_OFFLINE": "ON",
@@ -87,7 +88,7 @@ SETTING['yescoin'] = {
     }
 }
 SETTING['bump'] = {
-  "DELAY": 900,
+  "RANDOM_DELAY": (600, 1200),
   "AUTO_ĐIỂM_DANH": "ON",
   "AUTO_START_FARM": "ON",
   "AUTO_CLAIM_FARM": "ON",
@@ -97,7 +98,7 @@ SETTING['bump'] = {
   "AUTO_NÂNG_CẤP_BOOSTER": "ON"
 }
 SETTING['cyber_finance'] = {
-  "DELAY": 900,
+  "RANDOM_DELAY": (600, 1200),
   "AUTO_ĐIỂM_DANH": "ON",
   "AUTO_THAM_GIA_CLAN": "ON",
   "AUTO_CLAIM_FARM": "ON",
@@ -105,7 +106,7 @@ SETTING['cyber_finance'] = {
   "AUTO_NÂNG_CẤP_BOOSTER": "ON"
 }
 SETTING['djdog'] = {
-  "DELAY": 900,
+  "RANDOM_DELAY": (600, 1200),
   "AUTO_CLAIM_FARM": "ON",
   "AUTO_LÀM_NHIỆM_VỤ": "ON",
   "AUTO_MUA_BOX": "ON",
@@ -116,7 +117,7 @@ SETTING['djdog'] = {
   }
 }
 SETTING['quackquack'] = {
-  "DELAY": 900,
+  "RANDOM_DELAY": (600, 1200),
   "AUTO_THAM_GIA_CLAN": "ON",
   "AUTO_LÀM_NHIỆM_VỤ": "ON",
   "AUTO_CLAIM_DUCK_GOLDEN": "ON",
@@ -125,7 +126,7 @@ SETTING['quackquack'] = {
   "AUTO_SỬ_DỤNG_CFO": "ON"
 }
 SETTING['matchquest'] = {
-  "DELAY": 900,
+  "RANDOM_DELAY": (600, 1200),
   "AUTO_LÀM_QUIZ": "ON",
   "AUTO_START_FARM": "ON",
   "AUTO_CLAIM_FARM": "ON",
@@ -136,7 +137,7 @@ SETTING['matchquest'] = {
   "RANDOM_ĐIỂM_CHƠI_GAME": (140,160)
 }
 SETTING['blum'] = {
-  "DELAY": 900,
+  "RANDOM_DELAY": (600, 1200),
   "AUTO_ĐIỂM_DANH": "ON",
   "AUTO_START_FARM": "ON",
   "AUTO_CLAIM_FARM": "ON",
@@ -146,7 +147,7 @@ SETTING['blum'] = {
   "RANDOM_ĐIỂM_CHƠI_GAME": (140,160)
 }
 SETTING['memefi'] = {
-  "DELAY": 900,
+  "RANDOM_DELAY": (600, 1200),
   "RANDOM_LƯỢT_CLICK": (100, 200),
   "MAX_LƯỢT_QUAY_SPIN": 1000,
   "AUTO_CLICK": "ON",
@@ -164,13 +165,13 @@ SETTING['memefi'] = {
     }
 }
 SETTING['iceberg'] = {
-  "DELAY": 900,
+  "RANDOM_DELAY": (600, 1200),
   "AUTO_START_FARM": "ON",
   "AUTO_CLAIM_FARM": "ON",
   "AUTO_LÀM_NHIỆM_VỤ": "ON",
 }
 SETTING['major'] = {
-  "DELAY": 900,
+  "RANDOM_DELAY": (600, 1200),
   "AUTO_ĐIỂM_DANH": "ON",
   "AUTO_THAM_GIA_CLAN": "ON",
   "AUTO_LÀM_NHIỆM_VỤ": "ON",
@@ -179,27 +180,27 @@ SETTING['major'] = {
   "AUTO_SWIPE": "ON",
 }
 SETTING['kucoin'] = {
-  "DELAY": 900,
+  "RANDOM_DELAY": (600, 1200),
   "AUTO_CLICK": "ON",
   #Tối đa 60 lượt click
   "RANDOM_LƯỢT_CLICK": (30, 60),
   "ENERGY_VÔ_HẠN": "ON",
 }
 SETTING['midas'] = {
-  "DELAY": 900,
+  "RANDOM_DELAY": (600, 1200),
   "AUTO_ĐIỂM_DANH": "ON",
   "AUTO_TAPING": "ON",
   "AUTO_LÀM_NHIỆM_VỤ": "ON",
 }
 SETTING['atx'] = {
-  "DELAY": 900,
+  "RANDOM_DELAY": (600, 1200),
   "AUTO_ĐIỂM_DANH": "ON",
   "AUTO_START_FARM": "ON",
   "AUTO_CLAIM_FARM": "ON",
   "AUTO_LÀM_NHIỆM_VỤ": "ON",
 }
 SETTING['fastmint'] = {
-  "DELAY": 600,
+  "RANDOM_DELAY": (600, 1200),
   "AUTO_START_FARM": "ON",
   "AUTO_CLAIM_FARM": "ON",
   "AUTO_CLAIM_PHẦN_THƯỞNG_REF": "ON",
@@ -210,7 +211,7 @@ SETTING['fastmint'] = {
   }
 }
 SETTING['duckcoop'] = {
-  "DELAY": 600,
+  "RANDOM_DELAY": (600, 1200),
   "AUTO_ĐIỂM_DANH": "ON",
   "AUTO_LÀM_NHIỆM_VỤ": "ON",
 }
